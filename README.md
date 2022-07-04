@@ -12,4 +12,7 @@ To run this app:
 4) use the app!
 
 
-Source for formula used to calculate nbr of panels: https://www.omnicalculator.com/ecology/solar-panel
+Source for formula used to calculate number of panels: https://www.omnicalculator.com/ecology/solar-panel
+
+![image](https://user-images.githubusercontent.com/84485659/177073572-a80132fd-6bdd-4e10-8b8d-a056d6ccbfac.png)
+
