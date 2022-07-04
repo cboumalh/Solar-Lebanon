@@ -1,5 +1,6 @@
 import Header from "./header"
 import { fireEvent, render, screen, waitFor } from '@testing-library/react'
+import '@testing-library/jest-dom'
 
 describe('testing header component', ()=>{
     test('header', ()=>{
@@ -11,7 +12,7 @@ describe('testing header component', ()=>{
         const aboutPage = screen.getByRole('button', {name: /about page/i})
 
         fireEvent.click(aboutPage)
-        expect(screen.getByText("This is a basic tool that calculates the number of solar panels needed given some information about electricity consumption, sunlight hours, etc... Lebanon has been going through an electricity crisis since forever, and people have been flocking to solar power more and more. By building this app, i'm trying to facilitate the process of getting started with renewable energy.")).toBeInTheDocument()
+        expect(screen.getByText("This is a basic tool that calculates the number of solar panels needed given some information about electricity consumption, sunlight hours, etc... Lebanon has been going through an electricity crisis since forever, and people have been flocking to solar power more and more. This app is my attempt at trying to facilitate the process of getting started with renewable energy.")).toBeInTheDocument()
     })
 
     test('About me button', ()=>{

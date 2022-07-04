@@ -1,5 +1,6 @@
 import Data from "./data";
 import { fireEvent, render, screen, waitFor } from '@testing-library/react'
+import '@testing-library/jest-dom'
 
 describe('testing data component', ()=>{
     test('data', ()=>{

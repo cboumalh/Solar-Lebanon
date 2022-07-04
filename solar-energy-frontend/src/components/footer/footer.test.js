@@ -1,5 +1,6 @@
 import { fireEvent, render, screen, waitFor } from '@testing-library/react'
 import Footer from './footer'
+import '@testing-library/jest-dom'
 
 describe('testing footer component', ()=>{
     test('footer', ()=>{
