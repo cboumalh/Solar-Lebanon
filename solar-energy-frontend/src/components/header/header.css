@@ -1,0 +1,61 @@
+.nav{
+    min-height: 10vh;
+    background-color: rgb(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 15px;
+}
+
+.nav>button{
+    background-color: rgba(89,109,72,255);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    transition: background-color 1s ease-out 0s;
+}
+
+.nav>button:hover{
+    background-color: darkgreen;
+}
+
+.Modal {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    bottom: 25%;
+    background-color: rgb(0, 0, 0, 0.8);
+    border-radius: 15px;
+    height: fit-content;
+  }
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+}
+
+.Modal button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-top: 4px;
+
+}
+
+.Modal p{
+    color: white;
+    margin: 2% 5%;
+
+}
+
+.nav h1{
+    margin-left: 27%;
+    font-size: 3vw;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
