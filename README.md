@@ -8,7 +8,7 @@ This project was a chance for me to apply the web dev skills I had been picking 
 To run this app:
 1) Clone the repo
 2) run 'npm i' in the front-end and back-end directories
-3) in seperate terminals, run npm start and node app.js in the front-end and back-end directories respectively.
+3) in seperate terminals, run the 'npm start' and 'node app.js' commands in the front-end and back-end directories respectively.
 4) use the app!
 
 
