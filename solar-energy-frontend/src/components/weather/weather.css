@@ -7,18 +7,18 @@
     margin: 0 auto;
 }
 
+.avgsunshine{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .avgsunshine img{
     width: 150px;
     height: 150px;
 }
 .avgsunshine span{
     font-size: 70px;
-}
-
-.avgsunshine{
-    display: flex;
-    align-items: center;
-    gap: 10px;
 }
 
 .avgsunshine p{
