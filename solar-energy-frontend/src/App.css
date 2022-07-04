@@ -1,0 +1,9 @@
+.App {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url('./assets/qadisha-valley-lebanon.avif');
+  background-size: cover;
+  background-position: center;
+  overflow-y: scroll;
+  position: absolute;
+}
