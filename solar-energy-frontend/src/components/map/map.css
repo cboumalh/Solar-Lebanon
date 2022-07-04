@@ -1,0 +1,8 @@
+.Map{
+    max-width: fit-content;
+}
+
+.Map img{
+    height: 50vh;
+    width: 35vh;
+}
